@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>CONTACTOS</title>
+</head>
+
+<body>
+	<header class="navegacionOtros">
+		<div class="contenedor">
+			<div class="barra">
+				<img id="logo2" src="img_files/LOGO.JPG" alt="">
+				<nav class="navegacion a">
+					<a href="index.html" title="">INICIO</a>
+					<a href="electricidad.html" title="">ELECTRICIDAD</a>
+					<a href="electronica.html" title="">ELECTRONICA</a>
+					<a href="telecomunicaciones.html" title="">TELECOMUNICACIONES</a>
+					<a href="contactos.html" title="">CONTACTOS</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<h2>CONTACTENOS</h2>
+		<section>
+			<form class="formulario">
+				<label for="nombre">Nombres:</label><br>
+				<input type="text" id="nombre" name="nombre"><br>
+				<label for="apellido">Apellidos:</label><br>
+				<input type="text" id="apellido" name="apellido"><br>
+				<label for="correo">Correo:</label><br>
+				<input type="text" id="correo" name="correo"><br>
+				<label for="asunto">Servicio que solicita:</label><br>
+				<input type="text" id="asunto" name="asunto" list="servicios"><br>
+				<datalist id="servicios">
+					<select name="asunto" multiple>
+						<option>ELECTRICIDAD</option>
+						<option>TELECOMUNICACIONES</option>
+						<option>ELECTRONICA</option>
+					</select>
+				</datalist>
+				<h3>Mensaje</h3>
+				<textarea name="mensaje" style="">
+				</textarea>
+				<br>
+				<button type="button">Enviar</button>
+			</form>
+		</section>
+
+		<section>
+			<h2>CONTACTOS</h2>
+			<div class="formulario">
+				<table>
+					<tr>
+						<td>
+							Direccion:
+						</td>
+						<td>
+							Gonzales Suarez 10-33
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Telefono:
+						</td>
+						<td>
+							0984055697
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Correo:
+						</td>
+						<td>
+							ies.servicios@hotmail.com
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+		<section>
+			<h2>HORARIOS DE ATENCIÓN</h2>
+			<div class="formulario">
+				<table>
+					<tr>
+						<th>
+							HORA
+						</th>
+						<th>
+							DIA
+						</th>
+					</tr>
+					<tr>
+						<td>
+							7:00 a 17:00
+						</td>
+						<td>
+							Lunes a Viernes
+						</td>
+					</tr>
+					<tr>
+						<td>
+							7:00 a 14:00
+						</td>
+						<td>
+							Sábados
+						</td>
+					</tr>
+				</table>
+			</div>
+			<h3>Atención emergencias 24 horas.</h3>
+		</section>
+	</section>
+	<footer>
+		
+		<p class="footer1">INSTALACIONES ELECTRICAS SEGURAS</p>
+		<p class="footer2">Cuenca - Ecuador</p>
+	
+</footer>
+</body>
+
+</html>
